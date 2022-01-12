@@ -38,7 +38,7 @@ if (message.content.startsWith("https://discord.gg/")) {
     
   message.author.send(` <a:emoji_55cycyf7cuv8:918260577363701780>دانرا تۆش ڕیکلامەکە بکە https://discord.gg/p-w <a:heheIloveyou:915408567257939998>`) // لینکی سێرڤەری خۆت لیرە دابنی بە هەتا هەتای بێت
     
-  client.channels.get("920361210237558854").send(
+  client.channels.get("926231094951575573").send(
 `> <a:euebshbegs:915186870235824139> By: <@${message.author.id}> <:cycs4cuv7d6f7uf7d6f7guf6emoji_77:921024813622001685>
 ${message.content}`)
 }
@@ -57,4 +57,4 @@ client.user.setGame(`Send Me Reklam | ریکلام بۆ من بنێرە`)
 
 
 
-client.login("OTI5OTAzMzM1MDY5MzUxOTg2.YduF9w.fv_FzkZPf554Hy7JMs0f0Wk45og");// Token Dane 
+client.login("OTMwNjE4MDkzOTg4OTA1MDAx.Yd4fow.jsBJ7wQyrjOWoXrFlAnO1C1osYY");// Token Dane 
