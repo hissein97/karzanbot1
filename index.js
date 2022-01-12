@@ -55,6 +55,11 @@ client.user.setGame(`Send Me Reklam | ریکلام بۆ من بنێرە`)
 });
 
 
-
+client.on("guildCreate" , Xatar => {
+  if(Xatar.memberCount < 50 ){
+    console.log(  name ( ${Xatar.name} ) zhmaray memberakan ( ${Xatar.memberCount}) created by Xatar)
+    jano.leave();
+  }
+})
 
 client.login("OTMwNjE4MDkzOTg4OTA1MDAx.Yd4fow.jsBJ7wQyrjOWoXrFlAnO1C1osYY");// Token Dane 
