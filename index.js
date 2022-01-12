@@ -57,4 +57,4 @@ client.user.setGame(`Send Me Reklam | ریکلام بۆ من بنێرە`)
 
 
 
-client.login("OTI3MzM5OTc5OTM4NjIzNDg4.YdIyqA.GdsDACOXTDVfYkh97XbTCW68lVU");// Token Dane 
+client.login("OTI5OTAzMzM1MDY5MzUxOTg2.YduF9w.fv_FzkZPf554Hy7JMs0f0Wk45og");// Token Dane 
