@@ -6,7 +6,7 @@ client.on('message', message => {
 
 if (!message.guild) return; 
 
-if (message.content === '+wara') { 
+if (message.content === 'wara') { 
  if (!message.member.hasPermission("ADMINISTRATOR"))  return;
 if (message.member.voiceChannel) { 
 
@@ -21,61 +21,14 @@ message.member.voiceChannel.join()
 
 } else { 
 
-message.reply('**بـروڤـویس کـەسـەکـەم بـو ئـەوەێ بـتـوانـم جـویـن بـکـەم **'); 
- 
-} 
+message.reply('**<a:sugeditidhw8hd72duheufduh3duhe:919238876608987188> پێویستە تۆ لە ڤۆیسەکە بیت **'); 
 
 } 
 
+} 
+
 });
 
-client.on("message", msg => {
-  if (msg.content === "REKLAM") {
-    msg.reply(
-      "بـــنـــێــرە بــۆ مـــن گــــیـــان"
-    );
-  }
-});
-
-client.on("message", msg => {
-  if (msg.content === "reklam") {
-    msg.reply(
-      "بـــنـــێــرە بــۆ مـــن گــــیـــان"
-    );
-  }
-});
-
-client.on("message", msg => {
-  if (msg.content === "ریکلام") {
-    msg.reply(
-      "بـــنـــێــرە بــۆ مـــن گــــیـــان"
-    );
-  }
-});
-
-client.on("message", msg => {
-  if (msg.content === "سڵاو ریکلام") {
-    msg.reply(
-      "بـــنـــێــرە بــۆ مـــن گــــیـــان"
-    );
-  }
-});
-
-client.on("message", msg => {
-  if (msg.content === "سڵاو ڕیکلام") {
-    msg.reply(
-      "بـــنـــێــرە بــۆ مـــن گــــیـــان"
-    );
-  }
-});
-
-client.on("message", msg => {
-  if (msg.content === "ڕیکلام") {
-    msg.reply(
-      "بـــنـــێــرە بــۆ مـــن گــــیـــان"
-    );
-  }
-});
 
 client.on("message" , message => {
 
@@ -83,10 +36,10 @@ if(message.channel.type === 'dm') {
 
 if (message.content.startsWith("https://discord.gg/")) {
     
-  message.author.send(` مـن دام نـا بـەس تـوش دایـنـەێ  https://discord.gg/EXCuvNd`) // لینکی سێرڤەری خۆت لیرە دابنی بە هەتا هەتای بێت
+  message.author.send(` <a:emoji_55cycyf7cuv8:918260577363701780>دانرا تۆش ڕیکلامەکە بکە https://discord.gg/p-w <a:heheIloveyou:915408567257939998>`) // لینکی سێرڤەری خۆت لیرە دابنی بە هەتا هەتای بێت
     
-  client.channels.get("755636700482633791").send(
-`> ئـەم گـوڵـە ڕیکـلامەکـەێ کـرد: <@${message.author.id}>
+  client.channels.get("920361210237558854").send(
+`> <a:euebshbegs:915186870235824139> By: <@${message.author.id}> <:cycs4cuv7d6f7uf7d6f7guf6emoji_77:921024813622001685>
 ${message.content}`)
 }
     }
@@ -98,12 +51,10 @@ ${message.content}`)
 client.on('ready', () => {
 console.log(`ON ${client.guilds.size} Servers`);
 console.log(`Logged in as ${client.user.tag}!`);
-client.user.setGame(`ریکلام بـۆ مـن بـنیـرن`) 
+client.user.setGame(`Send Me Reklam | ریکلام بۆ من بنێرە`) 
 });
 
 
 
 
-client.login("OTMwNjEzNjA0Mjc1ODUxMjc0.Yd4bdQ.OuhGSb6Pg0Vn0wRVuZPiKSB5iUY");// تـۆکیـن بـوت 
-
-///Code By MrTiGER///
+client.login("OTI3MzM5OTc5OTM4NjIzNDg4.YdIyqA.GdsDACOXTDVfYkh97XbTCW68lVU");// Token Dane 
