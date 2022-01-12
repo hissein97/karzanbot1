@@ -36,7 +36,7 @@ if(message.channel.type === 'dm') {
 
 if (message.content.startsWith("https://discord.gg/")) {
     
-  message.author.send(` <a:emoji_55cycyf7cuv8:918260577363701780>دانرا تۆش ڕیکلامەکە بکە https://discord.gg/p-w <a:heheIloveyou:915408567257939998>`) // لینکی سێرڤەری خۆت لیرە دابنی بە هەتا هەتای بێت
+  message.author.send(`https://discord.gg/EgxDhKxX دانرا تۆش ڕیکلامەکە بکە `) // لینکی سێرڤەری خۆت لیرە دابنی بە هەتا هەتای بێت
     
   client.channels.get("926231094951575573").send(
 `> <a:euebshbegs:915186870235824139> By: <@${message.author.id}> <:cycs4cuv7d6f7uf7d6f7guf6emoji_77:921024813622001685>
